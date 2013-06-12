@@ -14,7 +14,7 @@
            fetch="ssh://git@github.com" />
 
   <remote  name="paranoid"
-           fetch="ssh://git@bitbucket.org/paranoidandroid/" 
+           fetch="git://github.com/ParanoidAndroid/" 
            revision="jellybean" />
 
   <remote  name="bb"
@@ -218,7 +218,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="github" revision="cm-10.1" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" remote="github" revision="cm-10.1" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="github" revision="cm-10.1"/>
-  <project path="frameworks/base" name="paranoidandroid/aosp_frameworks_base" remote="bb" revision="multiwindow-legacy" />
+  <project path="frameworks/base" name="ParanoidAndroid/android_frameworks_base" remote="github" revision="jellybean" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
@@ -282,7 +282,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="paranoidandroid/aosp_packages_apps_settings" remote="bb" revision="multiwindow-legacy" />
+  <project path="packages/apps/Settings" name="ParanoidAndroid/android_packages_apps_settings" remote="github" revision="jellybean" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
